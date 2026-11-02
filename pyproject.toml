@@ -1,12 +1,9 @@
 [project]
 name = "volleyball-final-pro"
+version = "1.0.0"
 dependencies = ["flet==0.27.6"]
 
 [tool.flet]
-assets_dir = "assets"
 app_name = "Volleyball Pro"
-app_description = "Volleyball Score Tracker"
-
-[tool.flet.icons]
-android = "icon.png"
-ios = "icon.png"
+app_icon = "assets/icon.png"
+assets_dir = "assets"
