@@ -1,6 +1,6 @@
 [project]
 name = "volleyball-final-pro"
-dependencies = ["flet"]
+dependencies = ["flet==0.27.6"]
 
 [tool.flet]
 assets_dir = "assets"
