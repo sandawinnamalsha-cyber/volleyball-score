@@ -1,17 +1,9 @@
 [project]
 name = "volleyball-final-pro"
 version = "1.0.0"
-description = "Volleyball Pro Score App"
-requires-python = ">=3.11"
-dependencies = [
-    "flet==0.27.6"
-]
+dependencies = ["flet==0.27.6"]
 
 [tool.flet]
 app_name = "Volleyball Pro"
 app_icon = "assets/icon.png"
 assets_dir = "assets"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
